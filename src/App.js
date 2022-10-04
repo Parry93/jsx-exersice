@@ -1,10 +1,9 @@
 
+import Sum from "./Sum"
 
-import HelloWorld from "./HelloWorld"
 
-// jsx2
 function App(){
-  return HelloWorld("paul");
+  return Sum(1, 2);
 }
-
 export default App;
+
