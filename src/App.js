@@ -1,9 +1,10 @@
-import React from "react";
 
-const hello = <h1> Hello, World! </h1>;
 
-function App() {
-  return hello;
+import HelloWorld from "./HelloWorld"
+
+// jsx2
+function App(){
+  return HelloWorld("paul");
 }
 
 export default App;
